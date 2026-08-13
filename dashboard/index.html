@@ -1,0 +1,244 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Pediatric Asthma Monitoring Dashboard</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #f4f7fb;
+      color: #1f2937;
+    }
+
+    header {
+      background: #0f766e;
+      color: white;
+      padding: 24px;
+    }
+
+    main {
+      padding: 24px;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 16px;
+      margin-bottom: 24px;
+    }
+
+    .card {
+      background: white;
+      padding: 18px;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    }
+
+    .label {
+      color: #64748b;
+      font-size: 14px;
+    }
+
+    .value {
+      font-size: 28px;
+      font-weight: bold;
+      margin-top: 8px;
+    }
+
+    .risk-low {
+      color: #16a34a;
+    }
+
+    .risk-medium {
+      color: #d97706;
+    }
+
+    .risk-high {
+      color: #dc2626;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      background: white;
+      border-radius: 8px;
+      overflow: hidden;
+    }
+
+    th, td {
+      padding: 12px;
+      border-bottom: 1px solid #e5e7eb;
+      text-align: left;
+      font-size: 14px;
+    }
+
+    th {
+      background: #e0f2f1;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Pediatric Asthma Monitoring Dashboard</h1>
+    <p>Simulation dashboard using generated sensor data.</p>
+  </header>
+
+  <main>
+    <h2>Latest Reading</h2>
+
+    <div class="grid">
+      <div class="card">
+        <div class="label">Risk Level</div>
+        <div class="value risk-medium">MEDIUM</div>
+      </div>
+
+      <div class="card">
+        <div class="label">SpO2</div>
+        <div class="value">98%</div>
+      </div>
+
+      <div class="card">
+        <div class="label">Heart Rate</div>
+        <div class="value">124 bpm</div>
+      </div>
+
+      <div class="card">
+        <div class="label">Humidity</div>
+        <div class="value">74.1%</div>
+      </div>
+
+      <div class="card">
+        <div class="label">Air Quality Raw</div>
+        <div class="value">856</div>
+      </div>
+    </div>
+
+    <h2>Risk Summary</h2>
+
+    <div class="grid">
+      <div class="card">
+        <div class="label">LOW</div>
+        <div class="value risk-low">2</div>
+      </div>
+
+      <div class="card">
+        <div class="label">MEDIUM</div>
+        <div class="value risk-medium">7</div>
+      </div>
+
+      <div class="card">
+        <div class="label">HIGH</div>
+        <div class="value risk-high">6</div>
+      </div>
+    </div>
+
+    <h2>Recent Alerts</h2>
+
+    <table>
+      <tr>
+        <th>Time</th>
+        <th>Risk</th>
+        <th>SpO2</th>
+        <th>Humidity</th>
+        <th>Air Quality</th>
+        <th>Reason</th>
+      </tr>
+
+      <tr>
+        <td>2026-08-13T15:28:40.986009</td>
+        <td class="risk-medium">MEDIUM</td>
+        <td>96%</td>
+        <td>76.1%</td>
+        <td>557</td>
+        <td>Humidity is high</td>
+      </tr>
+
+      <tr>
+        <td>2026-08-13T15:33:40.986009</td>
+        <td class="risk-high">HIGH</td>
+        <td>92%</td>
+        <td>48.5%</td>
+        <td>352</td>
+        <td>SpO2 is below the safety threshold</td>
+      </tr>
+
+      <tr>
+        <td>2026-08-13T15:38:40.986009</td>
+        <td class="risk-medium">MEDIUM</td>
+        <td>99%</td>
+        <td>67.3%</td>
+        <td>843</td>
+        <td>Air quality reading is high</td>
+      </tr>
+
+      <tr>
+        <td>2026-08-13T15:43:40.986009</td>
+        <td class="risk-medium">MEDIUM</td>
+        <td>94%</td>
+        <td>58.2%</td>
+        <td>483</td>
+        <td>SpO2 is slightly low</td>
+      </tr>
+
+      <tr>
+        <td>2026-08-13T15:48:40.986009</td>
+        <td class="risk-high">HIGH</td>
+        <td>93%</td>
+        <td>56.1%</td>
+        <td>800</td>
+        <td>Low SpO2 combined with poor air quality</td>
+      </tr>
+
+      <tr>
+        <td>2026-08-13T15:53:40.986009</td>
+        <td class="risk-high">HIGH</td>
+        <td>92%</td>
+        <td>64.8%</td>
+        <td>896</td>
+        <td>Low SpO2 combined with poor air quality</td>
+      </tr>
+
+      <tr>
+        <td>2026-08-13T15:58:40.986009</td>
+        <td class="risk-medium">MEDIUM</td>
+        <td>94%</td>
+        <td>66.5%</td>
+        <td>741</td>
+        <td>Air quality reading is high</td>
+      </tr>
+
+      <tr>
+        <td>2026-08-13T16:03:40.986009</td>
+        <td class="risk-high">HIGH</td>
+        <td>93%</td>
+        <td>81.5%</td>
+        <td>638</td>
+        <td>SpO2 is below the safety threshold</td>
+      </tr>
+
+      <tr>
+        <td>2026-08-13T16:08:40.986009</td>
+        <td class="risk-medium">MEDIUM</td>
+        <td>98%</td>
+        <td>61.4%</td>
+        <td>830</td>
+        <td>Air quality reading is high</td>
+      </tr>
+
+      <tr>
+        <td>2026-08-13T16:13:40.986009</td>
+        <td class="risk-medium">MEDIUM</td>
+        <td>98%</td>
+        <td>74.1%</td>
+        <td>856</td>
+        <td>Air quality reading is high</td>
+      </tr>
+
+    </table>
+  </main>
+</body>
+</html>
