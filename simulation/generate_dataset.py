@@ -25,7 +25,7 @@ def calculate_risk(data):
 def generate_reading(timestamp):
     data = {
         "device_id": "child_001",
-        "timestamp": timestamp.isoformat(),
+        "timestamp": timestamp.strftime("%Y-%m-%d %H:%M:%S"),
         "spo2": random.randint(92, 99),
         "heart_rate": random.randint(75, 125),
         "temperature": round(random.uniform(22.0, 30.0), 1),

@@ -23,6 +23,7 @@ def build_dashboard():
     recent_alerts = [
         reading for reading in readings if reading["riskLevel"] in ["MEDIUM", "HIGH"]
     ][-10:]
+    recent_alerts.reverse()
 
     html = f"""
 <!DOCTYPE html>

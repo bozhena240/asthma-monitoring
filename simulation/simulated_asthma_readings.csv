@@ -1,201 +1,201 @@
 device_id,timestamp,spo2,heart_rate,temperature,humidity,air_quality_raw,risk_level,reason
-child_001,2026-08-13T16:05:27.649941,95,105,26.6,57.8,852,MEDIUM,Air quality reading is high
-child_001,2026-08-13T16:10:27.649941,97,89,23.6,42.5,600,LOW,All simulated readings are within the normal test range
-child_001,2026-08-13T16:15:27.649941,99,95,26.8,80.7,542,MEDIUM,Humidity is high
-child_001,2026-08-13T16:20:27.649941,92,112,27.5,66.7,854,HIGH,Low SpO2 combined with poor air quality
-child_001,2026-08-13T16:25:27.649941,97,96,26.2,42.3,564,LOW,All simulated readings are within the normal test range
-child_001,2026-08-13T16:30:27.649941,93,95,28.6,60.6,365,HIGH,SpO2 is below the safety threshold
-child_001,2026-08-13T16:35:27.649941,97,80,27.1,56.6,623,LOW,All simulated readings are within the normal test range
-child_001,2026-08-13T16:40:27.649941,94,124,29.9,64.2,551,MEDIUM,SpO2 is slightly low
-child_001,2026-08-13T16:45:27.649941,97,117,29.0,74.4,669,MEDIUM,Humidity is high
-child_001,2026-08-13T16:50:27.649941,93,125,24.7,58.3,253,HIGH,SpO2 is below the safety threshold
-child_001,2026-08-13T16:55:27.649941,99,113,30.0,70.5,654,MEDIUM,Humidity is high
-child_001,2026-08-13T17:00:27.649941,92,115,25.2,69.8,403,HIGH,SpO2 is below the safety threshold
-child_001,2026-08-13T17:05:27.649941,98,107,27.2,69.1,345,LOW,All simulated readings are within the normal test range
-child_001,2026-08-13T17:10:27.649941,99,122,25.4,81.6,572,MEDIUM,Humidity is high
-child_001,2026-08-13T17:15:27.649941,97,83,24.0,77.8,262,MEDIUM,Humidity is high
-child_001,2026-08-13T17:20:27.649941,98,98,24.1,42.0,300,LOW,All simulated readings are within the normal test range
-child_001,2026-08-13T17:25:27.649941,95,82,24.5,84.5,560,MEDIUM,Humidity is high
-child_001,2026-08-13T17:30:27.649941,98,103,22.1,54.9,551,LOW,All simulated readings are within the normal test range
-child_001,2026-08-13T17:35:27.649941,97,92,24.7,46.9,892,MEDIUM,Air quality reading is high
-child_001,2026-08-13T17:40:27.649941,97,87,29.7,41.8,511,LOW,All simulated readings are within the normal test range
-child_001,2026-08-13T17:45:27.649941,97,94,29.6,62.6,329,LOW,All simulated readings are within the normal test range
-child_001,2026-08-13T17:50:27.649941,96,105,28.4,42.9,468,LOW,All simulated readings are within the normal test range
-child_001,2026-08-13T17:55:27.649941,97,115,22.6,78.2,729,MEDIUM,Air quality reading is high
-child_001,2026-08-13T18:00:27.649941,95,96,25.7,73.8,768,MEDIUM,Air quality reading is high
-child_001,2026-08-13T18:05:27.649941,92,92,27.4,53.9,515,HIGH,SpO2 is below the safety threshold
-child_001,2026-08-13T18:10:27.649941,96,103,26.1,41.6,754,MEDIUM,Air quality reading is high
-child_001,2026-08-13T18:15:27.649941,93,94,28.4,69.8,340,HIGH,SpO2 is below the safety threshold
-child_001,2026-08-13T18:20:27.649941,92,121,23.7,52.2,858,HIGH,Low SpO2 combined with poor air quality
-child_001,2026-08-13T18:25:27.649941,96,75,23.5,63.7,400,LOW,All simulated readings are within the normal test range
-child_001,2026-08-13T18:30:27.649941,93,111,25.5,69.4,261,HIGH,SpO2 is below the safety threshold
-child_001,2026-08-13T18:35:27.649941,99,81,26.9,50.5,532,LOW,All simulated readings are within the normal test range
-child_001,2026-08-13T18:40:27.649941,96,86,28.9,78.6,420,MEDIUM,Humidity is high
-child_001,2026-08-13T18:45:27.649941,95,110,25.1,65.5,712,MEDIUM,Air quality reading is high
-child_001,2026-08-13T18:50:27.649941,93,89,26.1,66.0,572,HIGH,SpO2 is below the safety threshold
-child_001,2026-08-13T18:55:27.649941,97,106,22.5,79.8,624,MEDIUM,Humidity is high
-child_001,2026-08-13T19:00:27.649941,97,81,27.3,50.4,314,LOW,All simulated readings are within the normal test range
-child_001,2026-08-13T19:05:27.649941,98,114,23.3,67.9,672,LOW,All simulated readings are within the normal test range
-child_001,2026-08-13T19:10:27.649941,96,81,26.8,42.8,426,LOW,All simulated readings are within the normal test range
-child_001,2026-08-13T19:15:27.649941,94,114,30.0,83.6,747,MEDIUM,Air quality reading is high
-child_001,2026-08-13T19:20:27.649941,93,80,26.0,67.1,635,HIGH,SpO2 is below the safety threshold
-child_001,2026-08-13T19:25:27.649941,96,118,25.8,44.8,509,LOW,All simulated readings are within the normal test range
-child_001,2026-08-13T19:30:27.649941,98,100,27.4,76.3,558,MEDIUM,Humidity is high
-child_001,2026-08-13T19:35:27.649941,99,105,24.1,46.5,632,LOW,All simulated readings are within the normal test range
-child_001,2026-08-13T19:40:27.649941,92,93,28.9,77.9,780,HIGH,Low SpO2 combined with poor air quality
-child_001,2026-08-13T19:45:27.649941,93,114,28.7,51.9,671,HIGH,SpO2 is below the safety threshold
-child_001,2026-08-13T19:50:27.649941,94,118,22.4,81.7,551,MEDIUM,Humidity is high
-child_001,2026-08-13T19:55:27.649941,94,122,27.6,65.0,811,MEDIUM,Air quality reading is high
-child_001,2026-08-13T20:00:27.649941,95,95,27.0,57.1,377,MEDIUM,SpO2 is slightly low
-child_001,2026-08-13T20:05:27.649941,93,77,27.3,70.6,878,HIGH,Low SpO2 combined with poor air quality
-child_001,2026-08-13T20:10:27.649941,99,78,24.8,46.9,806,MEDIUM,Air quality reading is high
-child_001,2026-08-13T20:15:27.649941,98,121,28.7,71.0,883,MEDIUM,Air quality reading is high
-child_001,2026-08-13T20:20:27.649941,96,120,27.9,47.0,679,LOW,All simulated readings are within the normal test range
-child_001,2026-08-13T20:25:27.649941,94,119,25.4,51.8,289,MEDIUM,SpO2 is slightly low
-child_001,2026-08-13T20:30:27.649941,92,121,28.7,46.6,696,HIGH,SpO2 is below the safety threshold
-child_001,2026-08-13T20:35:27.649941,97,104,26.9,80.4,577,MEDIUM,Humidity is high
-child_001,2026-08-13T20:40:27.649941,94,98,23.3,75.3,460,MEDIUM,Humidity is high
-child_001,2026-08-13T20:45:27.649941,94,105,29.1,59.0,278,MEDIUM,SpO2 is slightly low
-child_001,2026-08-13T20:50:27.649941,97,102,25.2,50.5,369,LOW,All simulated readings are within the normal test range
-child_001,2026-08-13T20:55:27.649941,95,105,28.9,76.3,662,MEDIUM,Humidity is high
-child_001,2026-08-13T21:00:27.649941,99,106,23.3,79.4,399,MEDIUM,Humidity is high
-child_001,2026-08-13T21:05:27.649941,92,118,25.8,46.5,463,HIGH,SpO2 is below the safety threshold
-child_001,2026-08-13T21:10:27.649941,95,86,23.1,69.7,580,MEDIUM,SpO2 is slightly low
-child_001,2026-08-13T21:15:27.649941,98,96,28.9,73.8,452,MEDIUM,Humidity is high
-child_001,2026-08-13T21:20:27.649941,93,120,28.8,75.5,611,HIGH,SpO2 is below the safety threshold
-child_001,2026-08-13T21:25:27.649941,99,122,23.1,44.8,542,LOW,All simulated readings are within the normal test range
-child_001,2026-08-13T21:30:27.649941,93,112,28.8,82.6,723,HIGH,Low SpO2 combined with poor air quality
-child_001,2026-08-13T21:35:27.649941,93,100,28.2,40.1,300,HIGH,SpO2 is below the safety threshold
-child_001,2026-08-13T21:40:27.649941,93,125,24.5,80.2,528,HIGH,SpO2 is below the safety threshold
-child_001,2026-08-13T21:45:27.649941,95,93,23.5,45.7,406,MEDIUM,SpO2 is slightly low
-child_001,2026-08-13T21:50:27.649941,96,114,25.3,77.2,736,MEDIUM,Air quality reading is high
-child_001,2026-08-13T21:55:27.649941,98,83,28.9,65.9,732,MEDIUM,Air quality reading is high
-child_001,2026-08-13T22:00:27.649941,97,107,27.7,73.3,588,MEDIUM,Humidity is high
-child_001,2026-08-13T22:05:27.649941,93,101,27.7,65.0,881,HIGH,Low SpO2 combined with poor air quality
-child_001,2026-08-13T22:10:27.649941,94,92,22.8,52.3,323,MEDIUM,SpO2 is slightly low
-child_001,2026-08-13T22:15:27.649941,92,120,22.6,48.0,561,HIGH,SpO2 is below the safety threshold
-child_001,2026-08-13T22:20:27.649941,98,102,26.8,70.5,799,MEDIUM,Air quality reading is high
-child_001,2026-08-13T22:25:27.649941,95,80,25.2,48.5,278,MEDIUM,SpO2 is slightly low
-child_001,2026-08-13T22:30:27.649941,94,99,27.8,59.3,385,MEDIUM,SpO2 is slightly low
-child_001,2026-08-13T22:35:27.649941,96,122,25.0,73.3,475,MEDIUM,Humidity is high
-child_001,2026-08-13T22:40:27.649941,92,121,28.0,65.9,468,HIGH,SpO2 is below the safety threshold
-child_001,2026-08-13T22:45:27.649941,96,84,24.2,66.5,250,LOW,All simulated readings are within the normal test range
-child_001,2026-08-13T22:50:27.649941,97,80,29.7,82.0,622,MEDIUM,Humidity is high
-child_001,2026-08-13T22:55:27.649941,92,89,23.8,57.2,814,HIGH,Low SpO2 combined with poor air quality
-child_001,2026-08-13T23:00:27.649941,94,75,24.0,72.0,365,MEDIUM,Humidity is high
-child_001,2026-08-13T23:05:27.649941,98,76,25.4,46.8,591,LOW,All simulated readings are within the normal test range
-child_001,2026-08-13T23:10:27.649941,93,97,23.7,40.1,534,HIGH,SpO2 is below the safety threshold
-child_001,2026-08-13T23:15:27.649941,94,114,23.4,82.9,297,MEDIUM,Humidity is high
-child_001,2026-08-13T23:20:27.649941,98,83,23.8,81.0,872,MEDIUM,Air quality reading is high
-child_001,2026-08-13T23:25:27.649941,92,120,24.0,41.4,354,HIGH,SpO2 is below the safety threshold
-child_001,2026-08-13T23:30:27.649941,97,112,29.1,63.3,501,LOW,All simulated readings are within the normal test range
-child_001,2026-08-13T23:35:27.649941,96,77,25.5,64.6,439,LOW,All simulated readings are within the normal test range
-child_001,2026-08-13T23:40:27.649941,95,123,25.4,61.1,392,MEDIUM,SpO2 is slightly low
-child_001,2026-08-13T23:45:27.649941,96,112,26.8,42.8,331,LOW,All simulated readings are within the normal test range
-child_001,2026-08-13T23:50:27.649941,99,123,24.3,56.9,705,MEDIUM,Air quality reading is high
-child_001,2026-08-13T23:55:27.649941,98,110,27.4,62.6,299,LOW,All simulated readings are within the normal test range
-child_001,2026-08-14T00:00:27.649941,92,88,27.4,55.1,862,HIGH,Low SpO2 combined with poor air quality
-child_001,2026-08-14T00:05:27.649941,99,104,29.3,53.4,772,MEDIUM,Air quality reading is high
-child_001,2026-08-14T00:10:27.649941,95,101,23.1,80.1,284,MEDIUM,Humidity is high
-child_001,2026-08-14T00:15:27.649941,92,79,24.3,62.5,639,HIGH,SpO2 is below the safety threshold
-child_001,2026-08-14T00:20:27.649941,96,76,25.5,53.0,770,MEDIUM,Air quality reading is high
-child_001,2026-08-14T00:25:27.649941,95,108,24.5,75.6,252,MEDIUM,Humidity is high
-child_001,2026-08-14T00:30:27.649941,92,109,22.5,51.9,524,HIGH,SpO2 is below the safety threshold
-child_001,2026-08-14T00:35:27.649941,98,103,27.8,54.9,417,LOW,All simulated readings are within the normal test range
-child_001,2026-08-14T00:40:27.649941,92,92,26.9,65.7,468,HIGH,SpO2 is below the safety threshold
-child_001,2026-08-14T00:45:27.649941,98,124,29.4,60.7,571,LOW,All simulated readings are within the normal test range
-child_001,2026-08-14T00:50:27.649941,94,105,27.3,51.4,769,MEDIUM,Air quality reading is high
-child_001,2026-08-14T00:55:27.649941,92,75,23.3,58.5,452,HIGH,SpO2 is below the safety threshold
-child_001,2026-08-14T01:00:27.649941,93,102,23.5,63.2,803,HIGH,Low SpO2 combined with poor air quality
-child_001,2026-08-14T01:05:27.649941,94,99,28.5,51.5,451,MEDIUM,SpO2 is slightly low
-child_001,2026-08-14T01:10:27.649941,98,114,25.8,70.0,709,MEDIUM,Air quality reading is high
-child_001,2026-08-14T01:15:27.649941,98,117,22.7,70.2,844,MEDIUM,Air quality reading is high
-child_001,2026-08-14T01:20:27.649941,92,95,28.7,84.1,409,HIGH,SpO2 is below the safety threshold
-child_001,2026-08-14T01:25:27.649941,97,92,29.8,48.5,440,LOW,All simulated readings are within the normal test range
-child_001,2026-08-14T01:30:27.649941,95,103,29.2,81.2,420,MEDIUM,Humidity is high
-child_001,2026-08-14T01:35:27.649941,93,106,24.1,82.6,374,HIGH,SpO2 is below the safety threshold
-child_001,2026-08-14T01:40:27.649941,99,81,23.1,50.8,329,LOW,All simulated readings are within the normal test range
-child_001,2026-08-14T01:45:27.649941,94,86,23.8,69.7,739,MEDIUM,Air quality reading is high
-child_001,2026-08-14T01:50:27.649941,99,94,23.1,78.6,561,MEDIUM,Humidity is high
-child_001,2026-08-14T01:55:27.649941,98,84,22.6,83.8,357,MEDIUM,Humidity is high
-child_001,2026-08-14T02:00:27.649941,92,92,28.1,68.5,347,HIGH,SpO2 is below the safety threshold
-child_001,2026-08-14T02:05:27.649941,97,108,25.9,59.7,445,LOW,All simulated readings are within the normal test range
-child_001,2026-08-14T02:10:27.649941,98,89,29.9,47.4,603,LOW,All simulated readings are within the normal test range
-child_001,2026-08-14T02:15:27.649941,94,89,27.2,47.5,658,MEDIUM,SpO2 is slightly low
-child_001,2026-08-14T02:20:27.649941,92,109,25.3,55.0,333,HIGH,SpO2 is below the safety threshold
-child_001,2026-08-14T02:25:27.649941,92,122,29.3,73.0,573,HIGH,SpO2 is below the safety threshold
-child_001,2026-08-14T02:30:27.649941,92,80,25.5,83.6,717,HIGH,Low SpO2 combined with poor air quality
-child_001,2026-08-14T02:35:27.649941,99,100,23.7,76.4,509,MEDIUM,Humidity is high
-child_001,2026-08-14T02:40:27.649941,93,120,29.0,52.7,672,HIGH,SpO2 is below the safety threshold
-child_001,2026-08-14T02:45:27.649941,94,107,24.8,82.9,517,MEDIUM,Humidity is high
-child_001,2026-08-14T02:50:27.649941,96,121,27.9,46.9,618,LOW,All simulated readings are within the normal test range
-child_001,2026-08-14T02:55:27.649941,94,95,24.0,80.2,688,MEDIUM,Humidity is high
-child_001,2026-08-14T03:00:27.649941,96,101,26.4,58.1,500,LOW,All simulated readings are within the normal test range
-child_001,2026-08-14T03:05:27.649941,94,88,29.7,74.4,376,MEDIUM,Humidity is high
-child_001,2026-08-14T03:10:27.649941,95,92,23.3,60.1,897,MEDIUM,Air quality reading is high
-child_001,2026-08-14T03:15:27.649941,98,119,27.0,80.5,672,MEDIUM,Humidity is high
-child_001,2026-08-14T03:20:27.649941,95,80,22.9,69.7,262,MEDIUM,SpO2 is slightly low
-child_001,2026-08-14T03:25:27.649941,95,85,27.9,41.9,831,MEDIUM,Air quality reading is high
-child_001,2026-08-14T03:30:27.649941,93,99,28.4,57.3,686,HIGH,SpO2 is below the safety threshold
-child_001,2026-08-14T03:35:27.649941,92,108,25.9,61.2,344,HIGH,SpO2 is below the safety threshold
-child_001,2026-08-14T03:40:27.649941,94,89,24.5,78.6,804,MEDIUM,Air quality reading is high
-child_001,2026-08-14T03:45:27.649941,93,96,22.6,71.6,313,HIGH,SpO2 is below the safety threshold
-child_001,2026-08-14T03:50:27.649941,94,77,28.8,63.9,481,MEDIUM,SpO2 is slightly low
-child_001,2026-08-14T03:55:27.649941,92,115,27.8,74.3,638,HIGH,SpO2 is below the safety threshold
-child_001,2026-08-14T04:00:27.649941,95,120,26.7,77.7,344,MEDIUM,Humidity is high
-child_001,2026-08-14T04:05:27.649941,94,125,27.4,42.5,406,MEDIUM,SpO2 is slightly low
-child_001,2026-08-14T04:10:27.649941,95,108,25.2,72.2,640,MEDIUM,Humidity is high
-child_001,2026-08-14T04:15:27.649941,94,91,27.2,78.2,635,MEDIUM,Humidity is high
-child_001,2026-08-14T04:20:27.649941,94,101,28.1,66.0,500,MEDIUM,SpO2 is slightly low
-child_001,2026-08-14T04:25:27.649941,93,116,26.5,73.1,618,HIGH,SpO2 is below the safety threshold
-child_001,2026-08-14T04:30:27.649941,92,108,24.4,49.1,758,HIGH,Low SpO2 combined with poor air quality
-child_001,2026-08-14T04:35:27.649941,96,102,22.8,61.0,411,LOW,All simulated readings are within the normal test range
-child_001,2026-08-14T04:40:27.649941,96,116,28.7,73.6,766,MEDIUM,Air quality reading is high
-child_001,2026-08-14T04:45:27.649941,99,86,28.6,67.6,574,LOW,All simulated readings are within the normal test range
-child_001,2026-08-14T04:50:27.649941,95,117,24.0,59.7,376,MEDIUM,SpO2 is slightly low
-child_001,2026-08-14T04:55:27.649941,98,120,22.5,68.4,607,LOW,All simulated readings are within the normal test range
-child_001,2026-08-14T05:00:27.649941,94,92,26.1,41.3,680,MEDIUM,SpO2 is slightly low
-child_001,2026-08-14T05:05:27.649941,95,107,22.1,59.4,373,MEDIUM,SpO2 is slightly low
-child_001,2026-08-14T05:10:27.649941,96,103,24.3,66.1,448,LOW,All simulated readings are within the normal test range
-child_001,2026-08-14T05:15:27.649941,96,104,23.1,59.4,866,MEDIUM,Air quality reading is high
-child_001,2026-08-14T05:20:27.649941,95,113,24.4,57.7,459,MEDIUM,SpO2 is slightly low
-child_001,2026-08-14T05:25:27.649941,94,103,26.0,64.9,571,MEDIUM,SpO2 is slightly low
-child_001,2026-08-14T05:30:27.649941,99,125,27.4,81.1,476,MEDIUM,Humidity is high
-child_001,2026-08-14T05:35:27.649941,95,99,29.1,72.1,754,MEDIUM,Air quality reading is high
-child_001,2026-08-14T05:40:27.649941,92,119,28.5,63.2,732,HIGH,Low SpO2 combined with poor air quality
-child_001,2026-08-14T05:45:27.649941,97,111,22.4,77.9,433,MEDIUM,Humidity is high
-child_001,2026-08-14T05:50:27.649941,92,112,22.9,72.8,766,HIGH,Low SpO2 combined with poor air quality
-child_001,2026-08-14T05:55:27.649941,94,116,25.4,49.3,602,MEDIUM,SpO2 is slightly low
-child_001,2026-08-14T06:00:27.649941,97,113,27.4,55.4,537,LOW,All simulated readings are within the normal test range
-child_001,2026-08-14T06:05:27.649941,93,83,24.3,79.9,711,HIGH,Low SpO2 combined with poor air quality
-child_001,2026-08-14T06:10:27.649941,94,101,22.1,55.0,467,MEDIUM,SpO2 is slightly low
-child_001,2026-08-14T06:15:27.649941,97,98,25.3,58.3,420,LOW,All simulated readings are within the normal test range
-child_001,2026-08-14T06:20:27.649941,97,118,26.3,81.7,351,MEDIUM,Humidity is high
-child_001,2026-08-14T06:25:27.649941,97,122,27.4,58.9,567,LOW,All simulated readings are within the normal test range
-child_001,2026-08-14T06:30:27.649941,99,102,23.2,70.3,770,MEDIUM,Air quality reading is high
-child_001,2026-08-14T06:35:27.649941,97,88,23.8,66.3,884,MEDIUM,Air quality reading is high
-child_001,2026-08-14T06:40:27.649941,93,92,24.2,62.8,410,HIGH,SpO2 is below the safety threshold
-child_001,2026-08-14T06:45:27.649941,97,75,23.8,78.8,748,MEDIUM,Air quality reading is high
-child_001,2026-08-14T06:50:27.649941,92,90,29.3,45.3,851,HIGH,Low SpO2 combined with poor air quality
-child_001,2026-08-14T06:55:27.649941,94,93,25.8,71.0,306,MEDIUM,Humidity is high
-child_001,2026-08-14T07:00:27.649941,95,104,27.4,56.3,433,MEDIUM,SpO2 is slightly low
-child_001,2026-08-14T07:05:27.649941,98,86,24.4,54.2,501,LOW,All simulated readings are within the normal test range
-child_001,2026-08-14T07:10:27.649941,97,109,28.5,58.6,656,LOW,All simulated readings are within the normal test range
-child_001,2026-08-14T07:15:27.649941,93,120,28.3,68.2,460,HIGH,SpO2 is below the safety threshold
-child_001,2026-08-14T07:20:27.649941,96,79,30.0,73.1,553,MEDIUM,Humidity is high
-child_001,2026-08-14T07:25:27.649941,92,97,28.0,56.9,359,HIGH,SpO2 is below the safety threshold
-child_001,2026-08-14T07:30:27.649941,92,76,27.6,59.1,427,HIGH,SpO2 is below the safety threshold
-child_001,2026-08-14T07:35:27.649941,95,81,23.4,61.4,522,MEDIUM,SpO2 is slightly low
-child_001,2026-08-14T07:40:27.649941,99,105,28.0,42.3,405,LOW,All simulated readings are within the normal test range
-child_001,2026-08-14T07:45:27.649941,95,75,27.1,78.3,261,MEDIUM,Humidity is high
-child_001,2026-08-14T07:50:27.649941,99,111,25.7,80.6,270,MEDIUM,Humidity is high
-child_001,2026-08-14T07:55:27.649941,95,120,27.3,48.1,485,MEDIUM,SpO2 is slightly low
-child_001,2026-08-14T08:00:27.649941,98,96,29.7,57.4,477,LOW,All simulated readings are within the normal test range
-child_001,2026-08-14T08:05:27.649941,95,94,26.2,54.4,529,MEDIUM,SpO2 is slightly low
-child_001,2026-08-14T08:10:27.649941,94,75,25.2,42.5,648,MEDIUM,SpO2 is slightly low
-child_001,2026-08-14T08:15:27.649941,94,92,22.8,58.3,857,MEDIUM,Air quality reading is high
-child_001,2026-08-14T08:20:27.649941,97,125,25.6,45.5,369,LOW,All simulated readings are within the normal test range
-child_001,2026-08-14T08:25:27.649941,97,95,24.9,58.0,693,LOW,All simulated readings are within the normal test range
-child_001,2026-08-14T08:30:27.649941,93,110,25.0,77.5,873,HIGH,Low SpO2 combined with poor air quality
-child_001,2026-08-14T08:35:27.649941,97,98,22.1,76.4,573,MEDIUM,Humidity is high
-child_001,2026-08-14T08:40:27.649941,97,86,23.2,46.2,647,LOW,All simulated readings are within the normal test range
+child_001,2026-08-13 16:29:25,97,116,28.5,62.7,453,LOW,All simulated readings are within the normal test range
+child_001,2026-08-13 16:34:25,93,91,28.0,73.6,304,HIGH,SpO2 is below the safety threshold
+child_001,2026-08-13 16:39:25,98,103,28.4,41.4,342,LOW,All simulated readings are within the normal test range
+child_001,2026-08-13 16:44:25,95,104,29.3,49.3,267,MEDIUM,SpO2 is slightly low
+child_001,2026-08-13 16:49:25,98,81,25.6,81.3,823,MEDIUM,Air quality reading is high
+child_001,2026-08-13 16:54:25,94,84,23.3,47.9,355,MEDIUM,SpO2 is slightly low
+child_001,2026-08-13 16:59:25,94,117,25.1,52.8,317,MEDIUM,SpO2 is slightly low
+child_001,2026-08-13 17:04:25,99,85,25.8,56.5,360,LOW,All simulated readings are within the normal test range
+child_001,2026-08-13 17:09:25,99,110,25.0,46.0,634,LOW,All simulated readings are within the normal test range
+child_001,2026-08-13 17:14:25,99,103,26.0,46.0,721,MEDIUM,Air quality reading is high
+child_001,2026-08-13 17:19:25,93,85,29.6,40.8,673,HIGH,SpO2 is below the safety threshold
+child_001,2026-08-13 17:24:25,96,119,27.0,65.7,615,LOW,All simulated readings are within the normal test range
+child_001,2026-08-13 17:29:25,93,93,26.4,72.9,278,HIGH,SpO2 is below the safety threshold
+child_001,2026-08-13 17:34:25,93,112,26.5,82.0,349,HIGH,SpO2 is below the safety threshold
+child_001,2026-08-13 17:39:25,95,121,24.4,84.9,740,MEDIUM,Air quality reading is high
+child_001,2026-08-13 17:44:25,97,106,24.5,49.0,699,LOW,All simulated readings are within the normal test range
+child_001,2026-08-13 17:49:25,98,109,23.2,53.1,795,MEDIUM,Air quality reading is high
+child_001,2026-08-13 17:54:25,95,122,22.7,82.2,671,MEDIUM,Humidity is high
+child_001,2026-08-13 17:59:25,92,97,25.0,45.0,466,HIGH,SpO2 is below the safety threshold
+child_001,2026-08-13 18:04:25,99,80,23.7,55.6,643,LOW,All simulated readings are within the normal test range
+child_001,2026-08-13 18:09:25,96,114,28.7,44.7,518,LOW,All simulated readings are within the normal test range
+child_001,2026-08-13 18:14:25,97,104,25.2,84.6,424,MEDIUM,Humidity is high
+child_001,2026-08-13 18:19:25,95,101,24.1,61.9,497,MEDIUM,SpO2 is slightly low
+child_001,2026-08-13 18:24:25,98,123,25.6,48.5,864,MEDIUM,Air quality reading is high
+child_001,2026-08-13 18:29:25,93,108,23.0,63.2,579,HIGH,SpO2 is below the safety threshold
+child_001,2026-08-13 18:34:25,97,112,29.2,72.5,851,MEDIUM,Air quality reading is high
+child_001,2026-08-13 18:39:25,93,76,22.5,50.8,445,HIGH,SpO2 is below the safety threshold
+child_001,2026-08-13 18:44:25,98,91,25.2,65.4,683,LOW,All simulated readings are within the normal test range
+child_001,2026-08-13 18:49:25,97,97,27.4,56.8,393,LOW,All simulated readings are within the normal test range
+child_001,2026-08-13 18:54:25,96,119,29.6,59.5,322,LOW,All simulated readings are within the normal test range
+child_001,2026-08-13 18:59:25,97,104,28.2,70.8,678,MEDIUM,Humidity is high
+child_001,2026-08-13 19:04:25,97,119,27.1,45.0,803,MEDIUM,Air quality reading is high
+child_001,2026-08-13 19:09:25,93,76,24.0,72.6,558,HIGH,SpO2 is below the safety threshold
+child_001,2026-08-13 19:14:25,93,111,23.2,62.5,523,HIGH,SpO2 is below the safety threshold
+child_001,2026-08-13 19:19:25,93,117,28.2,51.6,882,HIGH,Low SpO2 combined with poor air quality
+child_001,2026-08-13 19:24:25,95,78,25.0,67.5,756,MEDIUM,Air quality reading is high
+child_001,2026-08-13 19:29:25,93,80,22.4,69.0,710,HIGH,Low SpO2 combined with poor air quality
+child_001,2026-08-13 19:34:25,96,113,24.7,72.3,693,MEDIUM,Humidity is high
+child_001,2026-08-13 19:39:25,99,108,25.2,75.1,779,MEDIUM,Air quality reading is high
+child_001,2026-08-13 19:44:25,98,79,27.2,57.5,368,LOW,All simulated readings are within the normal test range
+child_001,2026-08-13 19:49:25,98,123,26.5,77.0,472,MEDIUM,Humidity is high
+child_001,2026-08-13 19:54:25,99,78,24.6,59.1,848,MEDIUM,Air quality reading is high
+child_001,2026-08-13 19:59:25,92,80,28.2,56.2,268,HIGH,SpO2 is below the safety threshold
+child_001,2026-08-13 20:04:25,96,88,28.0,76.2,443,MEDIUM,Humidity is high
+child_001,2026-08-13 20:09:25,94,112,27.6,73.7,684,MEDIUM,Humidity is high
+child_001,2026-08-13 20:14:25,97,106,27.6,65.8,564,LOW,All simulated readings are within the normal test range
+child_001,2026-08-13 20:19:25,96,85,27.8,62.3,450,LOW,All simulated readings are within the normal test range
+child_001,2026-08-13 20:24:25,98,95,22.9,72.3,337,MEDIUM,Humidity is high
+child_001,2026-08-13 20:29:25,97,92,23.1,57.8,630,LOW,All simulated readings are within the normal test range
+child_001,2026-08-13 20:34:25,92,77,22.0,60.9,643,HIGH,SpO2 is below the safety threshold
+child_001,2026-08-13 20:39:25,92,114,23.7,66.7,766,HIGH,Low SpO2 combined with poor air quality
+child_001,2026-08-13 20:44:25,92,79,25.0,62.3,880,HIGH,Low SpO2 combined with poor air quality
+child_001,2026-08-13 20:49:25,99,120,28.4,61.2,469,LOW,All simulated readings are within the normal test range
+child_001,2026-08-13 20:54:25,97,78,24.5,84.7,294,MEDIUM,Humidity is high
+child_001,2026-08-13 20:59:25,96,83,29.7,41.0,598,LOW,All simulated readings are within the normal test range
+child_001,2026-08-13 21:04:25,94,93,27.0,75.2,701,MEDIUM,Air quality reading is high
+child_001,2026-08-13 21:09:25,99,119,29.4,60.7,677,LOW,All simulated readings are within the normal test range
+child_001,2026-08-13 21:14:25,93,95,28.0,68.7,333,HIGH,SpO2 is below the safety threshold
+child_001,2026-08-13 21:19:25,96,113,24.9,44.1,336,LOW,All simulated readings are within the normal test range
+child_001,2026-08-13 21:24:25,93,110,27.2,84.4,872,HIGH,Low SpO2 combined with poor air quality
+child_001,2026-08-13 21:29:25,94,103,24.3,78.1,427,MEDIUM,Humidity is high
+child_001,2026-08-13 21:34:25,99,102,22.1,82.3,712,MEDIUM,Air quality reading is high
+child_001,2026-08-13 21:39:25,99,108,23.0,52.0,741,MEDIUM,Air quality reading is high
+child_001,2026-08-13 21:44:25,92,82,25.4,82.6,798,HIGH,Low SpO2 combined with poor air quality
+child_001,2026-08-13 21:49:25,99,94,26.1,79.9,748,MEDIUM,Air quality reading is high
+child_001,2026-08-13 21:54:25,97,100,25.1,63.7,813,MEDIUM,Air quality reading is high
+child_001,2026-08-13 21:59:25,93,124,24.9,51.9,334,HIGH,SpO2 is below the safety threshold
+child_001,2026-08-13 22:04:25,94,119,22.0,46.3,838,MEDIUM,Air quality reading is high
+child_001,2026-08-13 22:09:25,98,76,27.3,64.5,317,LOW,All simulated readings are within the normal test range
+child_001,2026-08-13 22:14:25,93,122,24.9,68.6,434,HIGH,SpO2 is below the safety threshold
+child_001,2026-08-13 22:19:25,94,124,27.9,54.6,336,MEDIUM,SpO2 is slightly low
+child_001,2026-08-13 22:24:25,97,82,25.4,49.5,810,MEDIUM,Air quality reading is high
+child_001,2026-08-13 22:29:25,95,123,26.5,55.0,672,MEDIUM,SpO2 is slightly low
+child_001,2026-08-13 22:34:25,98,75,26.6,73.3,865,MEDIUM,Air quality reading is high
+child_001,2026-08-13 22:39:25,94,101,23.8,51.5,853,MEDIUM,Air quality reading is high
+child_001,2026-08-13 22:44:25,95,78,25.9,46.4,636,MEDIUM,SpO2 is slightly low
+child_001,2026-08-13 22:49:25,99,97,22.3,44.9,798,MEDIUM,Air quality reading is high
+child_001,2026-08-13 22:54:25,98,110,27.0,82.4,377,MEDIUM,Humidity is high
+child_001,2026-08-13 22:59:25,99,88,27.9,67.4,621,LOW,All simulated readings are within the normal test range
+child_001,2026-08-13 23:04:25,99,98,24.1,54.3,453,LOW,All simulated readings are within the normal test range
+child_001,2026-08-13 23:09:25,95,124,25.1,62.8,474,MEDIUM,SpO2 is slightly low
+child_001,2026-08-13 23:14:25,92,122,27.2,48.8,831,HIGH,Low SpO2 combined with poor air quality
+child_001,2026-08-13 23:19:25,92,90,29.0,50.9,389,HIGH,SpO2 is below the safety threshold
+child_001,2026-08-13 23:24:25,95,79,29.8,63.1,614,MEDIUM,SpO2 is slightly low
+child_001,2026-08-13 23:29:25,96,95,29.6,66.7,641,LOW,All simulated readings are within the normal test range
+child_001,2026-08-13 23:34:25,99,88,28.4,76.9,473,MEDIUM,Humidity is high
+child_001,2026-08-13 23:39:25,94,86,26.3,76.4,675,MEDIUM,Humidity is high
+child_001,2026-08-13 23:44:25,96,81,23.4,77.5,280,MEDIUM,Humidity is high
+child_001,2026-08-13 23:49:25,94,125,27.4,53.1,288,MEDIUM,SpO2 is slightly low
+child_001,2026-08-13 23:54:25,92,95,23.8,68.2,748,HIGH,Low SpO2 combined with poor air quality
+child_001,2026-08-13 23:59:25,99,122,22.7,49.4,572,LOW,All simulated readings are within the normal test range
+child_001,2026-08-14 00:04:25,96,88,23.1,56.6,366,LOW,All simulated readings are within the normal test range
+child_001,2026-08-14 00:09:25,92,86,27.9,54.5,852,HIGH,Low SpO2 combined with poor air quality
+child_001,2026-08-14 00:14:25,97,83,26.1,52.9,310,LOW,All simulated readings are within the normal test range
+child_001,2026-08-14 00:19:25,95,78,29.9,68.7,358,MEDIUM,SpO2 is slightly low
+child_001,2026-08-14 00:24:25,94,108,24.0,40.7,719,MEDIUM,Air quality reading is high
+child_001,2026-08-14 00:29:25,94,75,26.2,48.6,430,MEDIUM,SpO2 is slightly low
+child_001,2026-08-14 00:34:25,94,109,22.6,80.8,410,MEDIUM,Humidity is high
+child_001,2026-08-14 00:39:25,95,85,29.4,52.6,641,MEDIUM,SpO2 is slightly low
+child_001,2026-08-14 00:44:25,99,87,25.2,66.2,294,LOW,All simulated readings are within the normal test range
+child_001,2026-08-14 00:49:25,95,112,29.4,61.7,414,MEDIUM,SpO2 is slightly low
+child_001,2026-08-14 00:54:25,98,78,28.2,47.8,814,MEDIUM,Air quality reading is high
+child_001,2026-08-14 00:59:25,98,96,26.0,68.4,385,LOW,All simulated readings are within the normal test range
+child_001,2026-08-14 01:04:25,99,117,24.4,53.8,339,LOW,All simulated readings are within the normal test range
+child_001,2026-08-14 01:09:25,99,111,27.0,63.7,516,LOW,All simulated readings are within the normal test range
+child_001,2026-08-14 01:14:25,94,107,22.9,65.5,344,MEDIUM,SpO2 is slightly low
+child_001,2026-08-14 01:19:25,97,90,28.3,46.0,728,MEDIUM,Air quality reading is high
+child_001,2026-08-14 01:24:25,94,85,25.1,48.9,691,MEDIUM,SpO2 is slightly low
+child_001,2026-08-14 01:29:25,96,107,26.4,60.1,608,LOW,All simulated readings are within the normal test range
+child_001,2026-08-14 01:34:25,95,105,22.5,55.0,334,MEDIUM,SpO2 is slightly low
+child_001,2026-08-14 01:39:25,99,100,28.5,44.3,250,LOW,All simulated readings are within the normal test range
+child_001,2026-08-14 01:44:25,97,87,30.0,57.2,452,LOW,All simulated readings are within the normal test range
+child_001,2026-08-14 01:49:25,93,82,25.0,76.6,824,HIGH,Low SpO2 combined with poor air quality
+child_001,2026-08-14 01:54:25,97,103,25.4,80.1,362,MEDIUM,Humidity is high
+child_001,2026-08-14 01:59:25,94,106,22.4,78.8,569,MEDIUM,Humidity is high
+child_001,2026-08-14 02:04:25,98,119,27.4,72.3,438,MEDIUM,Humidity is high
+child_001,2026-08-14 02:09:25,92,110,22.7,46.4,892,HIGH,Low SpO2 combined with poor air quality
+child_001,2026-08-14 02:14:25,99,116,29.3,62.0,316,LOW,All simulated readings are within the normal test range
+child_001,2026-08-14 02:19:25,94,106,22.1,59.1,711,MEDIUM,Air quality reading is high
+child_001,2026-08-14 02:24:25,93,116,28.7,67.0,453,HIGH,SpO2 is below the safety threshold
+child_001,2026-08-14 02:29:25,99,124,28.5,52.5,849,MEDIUM,Air quality reading is high
+child_001,2026-08-14 02:34:25,96,106,29.7,78.2,900,MEDIUM,Air quality reading is high
+child_001,2026-08-14 02:39:25,96,79,23.2,68.6,556,LOW,All simulated readings are within the normal test range
+child_001,2026-08-14 02:44:25,96,115,26.2,60.3,703,MEDIUM,Air quality reading is high
+child_001,2026-08-14 02:49:25,92,77,25.3,73.9,446,HIGH,SpO2 is below the safety threshold
+child_001,2026-08-14 02:54:25,93,115,28.0,65.5,732,HIGH,Low SpO2 combined with poor air quality
+child_001,2026-08-14 02:59:25,97,110,27.1,66.9,712,MEDIUM,Air quality reading is high
+child_001,2026-08-14 03:04:25,99,99,23.7,69.2,676,LOW,All simulated readings are within the normal test range
+child_001,2026-08-14 03:09:25,95,113,28.6,40.8,736,MEDIUM,Air quality reading is high
+child_001,2026-08-14 03:14:25,94,95,28.5,57.2,558,MEDIUM,SpO2 is slightly low
+child_001,2026-08-14 03:19:25,98,120,27.4,45.1,570,LOW,All simulated readings are within the normal test range
+child_001,2026-08-14 03:24:25,94,75,23.6,66.6,558,MEDIUM,SpO2 is slightly low
+child_001,2026-08-14 03:29:25,92,101,22.5,69.7,867,HIGH,Low SpO2 combined with poor air quality
+child_001,2026-08-14 03:34:25,97,85,22.2,63.9,853,MEDIUM,Air quality reading is high
+child_001,2026-08-14 03:39:25,94,106,25.8,67.5,647,MEDIUM,SpO2 is slightly low
+child_001,2026-08-14 03:44:25,95,92,23.9,54.9,600,MEDIUM,SpO2 is slightly low
+child_001,2026-08-14 03:49:25,92,103,27.8,58.9,452,HIGH,SpO2 is below the safety threshold
+child_001,2026-08-14 03:54:25,95,104,28.6,81.5,443,MEDIUM,Humidity is high
+child_001,2026-08-14 03:59:25,95,124,29.5,62.4,678,MEDIUM,SpO2 is slightly low
+child_001,2026-08-14 04:04:25,96,89,23.2,74.5,627,MEDIUM,Humidity is high
+child_001,2026-08-14 04:09:25,92,93,22.3,44.9,659,HIGH,SpO2 is below the safety threshold
+child_001,2026-08-14 04:14:25,96,84,26.2,56.2,719,MEDIUM,Air quality reading is high
+child_001,2026-08-14 04:19:25,95,81,23.0,54.6,376,MEDIUM,SpO2 is slightly low
+child_001,2026-08-14 04:24:25,94,109,28.5,81.3,650,MEDIUM,Humidity is high
+child_001,2026-08-14 04:29:25,94,118,27.3,66.5,324,MEDIUM,SpO2 is slightly low
+child_001,2026-08-14 04:34:25,94,124,28.2,69.7,639,MEDIUM,SpO2 is slightly low
+child_001,2026-08-14 04:39:25,97,108,26.8,59.8,783,MEDIUM,Air quality reading is high
+child_001,2026-08-14 04:44:25,97,94,28.3,41.3,330,LOW,All simulated readings are within the normal test range
+child_001,2026-08-14 04:49:25,93,104,27.0,83.5,864,HIGH,Low SpO2 combined with poor air quality
+child_001,2026-08-14 04:54:25,95,124,28.5,46.1,415,MEDIUM,SpO2 is slightly low
+child_001,2026-08-14 04:59:25,98,121,27.6,44.3,585,LOW,All simulated readings are within the normal test range
+child_001,2026-08-14 05:04:25,99,122,24.6,84.7,461,MEDIUM,Humidity is high
+child_001,2026-08-14 05:09:25,92,124,27.3,77.9,642,HIGH,SpO2 is below the safety threshold
+child_001,2026-08-14 05:14:25,97,103,28.8,69.6,729,MEDIUM,Air quality reading is high
+child_001,2026-08-14 05:19:25,93,125,28.0,53.7,382,HIGH,SpO2 is below the safety threshold
+child_001,2026-08-14 05:24:25,98,81,28.7,44.5,563,LOW,All simulated readings are within the normal test range
+child_001,2026-08-14 05:29:25,96,75,26.3,75.3,361,MEDIUM,Humidity is high
+child_001,2026-08-14 05:34:25,92,108,25.5,52.5,862,HIGH,Low SpO2 combined with poor air quality
+child_001,2026-08-14 05:39:25,95,99,23.2,76.3,849,MEDIUM,Air quality reading is high
+child_001,2026-08-14 05:44:25,97,92,24.3,40.9,842,MEDIUM,Air quality reading is high
+child_001,2026-08-14 05:49:25,97,98,25.6,54.7,806,MEDIUM,Air quality reading is high
+child_001,2026-08-14 05:54:25,93,85,27.9,66.9,411,HIGH,SpO2 is below the safety threshold
+child_001,2026-08-14 05:59:25,94,97,28.5,49.3,832,MEDIUM,Air quality reading is high
+child_001,2026-08-14 06:04:25,94,88,22.4,64.9,269,MEDIUM,SpO2 is slightly low
+child_001,2026-08-14 06:09:25,97,85,29.7,54.6,677,LOW,All simulated readings are within the normal test range
+child_001,2026-08-14 06:14:25,94,125,28.0,42.8,782,MEDIUM,Air quality reading is high
+child_001,2026-08-14 06:19:25,92,104,22.4,72.4,588,HIGH,SpO2 is below the safety threshold
+child_001,2026-08-14 06:24:25,99,88,23.8,51.5,787,MEDIUM,Air quality reading is high
+child_001,2026-08-14 06:29:25,96,110,29.1,73.0,723,MEDIUM,Air quality reading is high
+child_001,2026-08-14 06:34:25,96,81,26.5,49.3,794,MEDIUM,Air quality reading is high
+child_001,2026-08-14 06:39:25,92,86,22.4,75.3,570,HIGH,SpO2 is below the safety threshold
+child_001,2026-08-14 06:44:25,92,105,24.5,60.7,868,HIGH,Low SpO2 combined with poor air quality
+child_001,2026-08-14 06:49:25,98,121,29.8,78.6,437,MEDIUM,Humidity is high
+child_001,2026-08-14 06:54:25,94,112,27.7,84.2,330,MEDIUM,Humidity is high
+child_001,2026-08-14 06:59:25,98,113,29.2,54.3,417,LOW,All simulated readings are within the normal test range
+child_001,2026-08-14 07:04:25,93,77,26.2,79.3,398,HIGH,SpO2 is below the safety threshold
+child_001,2026-08-14 07:09:25,93,109,22.7,43.9,747,HIGH,Low SpO2 combined with poor air quality
+child_001,2026-08-14 07:14:25,99,107,26.6,78.6,502,MEDIUM,Humidity is high
+child_001,2026-08-14 07:19:25,94,105,22.1,62.8,492,MEDIUM,SpO2 is slightly low
+child_001,2026-08-14 07:24:25,97,85,22.5,44.3,507,LOW,All simulated readings are within the normal test range
+child_001,2026-08-14 07:29:25,97,101,27.0,47.7,440,LOW,All simulated readings are within the normal test range
+child_001,2026-08-14 07:34:25,99,82,24.8,43.2,617,LOW,All simulated readings are within the normal test range
+child_001,2026-08-14 07:39:25,95,104,25.5,84.1,611,MEDIUM,Humidity is high
+child_001,2026-08-14 07:44:25,98,102,23.9,48.4,623,LOW,All simulated readings are within the normal test range
+child_001,2026-08-14 07:49:25,98,94,26.3,77.5,470,MEDIUM,Humidity is high
+child_001,2026-08-14 07:54:25,95,95,22.3,59.7,824,MEDIUM,Air quality reading is high
+child_001,2026-08-14 07:59:25,98,117,22.7,69.5,869,MEDIUM,Air quality reading is high
+child_001,2026-08-14 08:04:25,97,123,29.5,45.0,614,LOW,All simulated readings are within the normal test range
+child_001,2026-08-14 08:09:25,96,87,25.2,58.7,885,MEDIUM,Air quality reading is high
+child_001,2026-08-14 08:14:25,99,91,22.6,68.8,310,LOW,All simulated readings are within the normal test range
+child_001,2026-08-14 08:19:25,96,114,22.7,52.5,680,LOW,All simulated readings are within the normal test range
+child_001,2026-08-14 08:24:25,98,95,22.4,61.4,589,LOW,All simulated readings are within the normal test range
+child_001,2026-08-14 08:29:25,98,83,27.7,60.9,773,MEDIUM,Air quality reading is high
+child_001,2026-08-14 08:34:25,99,119,24.2,41.8,397,LOW,All simulated readings are within the normal test range
+child_001,2026-08-14 08:39:25,92,95,26.6,54.8,269,HIGH,SpO2 is below the safety threshold
+child_001,2026-08-14 08:44:25,99,112,29.5,77.7,611,MEDIUM,Humidity is high
+child_001,2026-08-14 08:49:25,95,78,24.9,48.7,443,MEDIUM,SpO2 is slightly low
+child_001,2026-08-14 08:54:25,92,78,26.0,82.1,770,HIGH,Low SpO2 combined with poor air quality
+child_001,2026-08-14 08:59:25,92,107,28.4,57.4,588,HIGH,SpO2 is below the safety threshold
+child_001,2026-08-14 09:04:25,96,125,24.0,40.6,524,LOW,All simulated readings are within the normal test range
