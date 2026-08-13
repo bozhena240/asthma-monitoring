@@ -1,0 +1,16 @@
+device_id,timestamp,spo2,heart_rate,temperature,humidity,air_quality_raw,risk_level,reason
+child_001,2026-08-13T15:03:40.986009,98,118,29.6,43.1,260,LOW,All simulated readings are within the normal test range
+child_001,2026-08-13T15:08:40.986009,99,124,26.3,63.5,317,LOW,All simulated readings are within the normal test range
+child_001,2026-08-13T15:13:40.986009,92,97,26.8,75.6,869,HIGH,Low SpO2 combined with poor air quality
+child_001,2026-08-13T15:18:40.986009,97,104,28.2,45.4,724,MEDIUM,Air quality reading is high
+child_001,2026-08-13T15:23:40.986009,92,113,25.5,71.0,802,HIGH,Low SpO2 combined with poor air quality
+child_001,2026-08-13T15:28:40.986009,96,77,25.4,76.1,557,MEDIUM,Humidity is high
+child_001,2026-08-13T15:33:40.986009,92,117,24.0,48.5,352,HIGH,SpO2 is below the safety threshold
+child_001,2026-08-13T15:38:40.986009,99,108,24.1,67.3,843,MEDIUM,Air quality reading is high
+child_001,2026-08-13T15:43:40.986009,94,104,22.3,58.2,483,MEDIUM,SpO2 is slightly low
+child_001,2026-08-13T15:48:40.986009,93,111,25.0,56.1,800,HIGH,Low SpO2 combined with poor air quality
+child_001,2026-08-13T15:53:40.986009,92,76,24.8,64.8,896,HIGH,Low SpO2 combined with poor air quality
+child_001,2026-08-13T15:58:40.986009,94,108,27.1,66.5,741,MEDIUM,Air quality reading is high
+child_001,2026-08-13T16:03:40.986009,93,95,23.2,81.5,638,HIGH,SpO2 is below the safety threshold
+child_001,2026-08-13T16:08:40.986009,98,122,29.6,61.4,830,MEDIUM,Air quality reading is high
+child_001,2026-08-13T16:13:40.986009,98,124,30.0,74.1,856,MEDIUM,Air quality reading is high
