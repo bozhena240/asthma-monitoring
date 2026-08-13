@@ -153,4 +153,4 @@ void loop() {
   printJsonReading(currentData, risk, passed);
 
   delay(3000);
-}
+} 
