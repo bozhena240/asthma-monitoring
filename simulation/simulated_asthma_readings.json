@@ -1,0 +1,170 @@
+{
+  "deviceId": "child_001",
+  "readings": [
+    {
+      "deviceId": "child_001",
+      "timestamp": "2026-08-13T15:03:40.986009",
+      "spo2": 98,
+      "heartRate": 118,
+      "temperature": 29.6,
+      "humidity": 43.1,
+      "airQualityRaw": 260,
+      "riskLevel": "LOW",
+      "reason": "All simulated readings are within the normal test range"
+    },
+    {
+      "deviceId": "child_001",
+      "timestamp": "2026-08-13T15:08:40.986009",
+      "spo2": 99,
+      "heartRate": 124,
+      "temperature": 26.3,
+      "humidity": 63.5,
+      "airQualityRaw": 317,
+      "riskLevel": "LOW",
+      "reason": "All simulated readings are within the normal test range"
+    },
+    {
+      "deviceId": "child_001",
+      "timestamp": "2026-08-13T15:13:40.986009",
+      "spo2": 92,
+      "heartRate": 97,
+      "temperature": 26.8,
+      "humidity": 75.6,
+      "airQualityRaw": 869,
+      "riskLevel": "HIGH",
+      "reason": "Low SpO2 combined with poor air quality"
+    },
+    {
+      "deviceId": "child_001",
+      "timestamp": "2026-08-13T15:18:40.986009",
+      "spo2": 97,
+      "heartRate": 104,
+      "temperature": 28.2,
+      "humidity": 45.4,
+      "airQualityRaw": 724,
+      "riskLevel": "MEDIUM",
+      "reason": "Air quality reading is high"
+    },
+    {
+      "deviceId": "child_001",
+      "timestamp": "2026-08-13T15:23:40.986009",
+      "spo2": 92,
+      "heartRate": 113,
+      "temperature": 25.5,
+      "humidity": 71.0,
+      "airQualityRaw": 802,
+      "riskLevel": "HIGH",
+      "reason": "Low SpO2 combined with poor air quality"
+    },
+    {
+      "deviceId": "child_001",
+      "timestamp": "2026-08-13T15:28:40.986009",
+      "spo2": 96,
+      "heartRate": 77,
+      "temperature": 25.4,
+      "humidity": 76.1,
+      "airQualityRaw": 557,
+      "riskLevel": "MEDIUM",
+      "reason": "Humidity is high"
+    },
+    {
+      "deviceId": "child_001",
+      "timestamp": "2026-08-13T15:33:40.986009",
+      "spo2": 92,
+      "heartRate": 117,
+      "temperature": 24.0,
+      "humidity": 48.5,
+      "airQualityRaw": 352,
+      "riskLevel": "HIGH",
+      "reason": "SpO2 is below the safety threshold"
+    },
+    {
+      "deviceId": "child_001",
+      "timestamp": "2026-08-13T15:38:40.986009",
+      "spo2": 99,
+      "heartRate": 108,
+      "temperature": 24.1,
+      "humidity": 67.3,
+      "airQualityRaw": 843,
+      "riskLevel": "MEDIUM",
+      "reason": "Air quality reading is high"
+    },
+    {
+      "deviceId": "child_001",
+      "timestamp": "2026-08-13T15:43:40.986009",
+      "spo2": 94,
+      "heartRate": 104,
+      "temperature": 22.3,
+      "humidity": 58.2,
+      "airQualityRaw": 483,
+      "riskLevel": "MEDIUM",
+      "reason": "SpO2 is slightly low"
+    },
+    {
+      "deviceId": "child_001",
+      "timestamp": "2026-08-13T15:48:40.986009",
+      "spo2": 93,
+      "heartRate": 111,
+      "temperature": 25.0,
+      "humidity": 56.1,
+      "airQualityRaw": 800,
+      "riskLevel": "HIGH",
+      "reason": "Low SpO2 combined with poor air quality"
+    },
+    {
+      "deviceId": "child_001",
+      "timestamp": "2026-08-13T15:53:40.986009",
+      "spo2": 92,
+      "heartRate": 76,
+      "temperature": 24.8,
+      "humidity": 64.8,
+      "airQualityRaw": 896,
+      "riskLevel": "HIGH",
+      "reason": "Low SpO2 combined with poor air quality"
+    },
+    {
+      "deviceId": "child_001",
+      "timestamp": "2026-08-13T15:58:40.986009",
+      "spo2": 94,
+      "heartRate": 108,
+      "temperature": 27.1,
+      "humidity": 66.5,
+      "airQualityRaw": 741,
+      "riskLevel": "MEDIUM",
+      "reason": "Air quality reading is high"
+    },
+    {
+      "deviceId": "child_001",
+      "timestamp": "2026-08-13T16:03:40.986009",
+      "spo2": 93,
+      "heartRate": 95,
+      "temperature": 23.2,
+      "humidity": 81.5,
+      "airQualityRaw": 638,
+      "riskLevel": "HIGH",
+      "reason": "SpO2 is below the safety threshold"
+    },
+    {
+      "deviceId": "child_001",
+      "timestamp": "2026-08-13T16:08:40.986009",
+      "spo2": 98,
+      "heartRate": 122,
+      "temperature": 29.6,
+      "humidity": 61.4,
+      "airQualityRaw": 830,
+      "riskLevel": "MEDIUM",
+      "reason": "Air quality reading is high"
+    },
+    {
+      "deviceId": "child_001",
+      "timestamp": "2026-08-13T16:13:40.986009",
+      "spo2": 98,
+      "heartRate": 124,
+      "temperature": 30.0,
+      "humidity": 74.1,
+      "airQualityRaw": 856,
+      "riskLevel": "MEDIUM",
+      "reason": "Air quality reading is high"
+    }
+  ]
+}
