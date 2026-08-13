@@ -2,6 +2,7 @@
 
 struct SensorData {
   const char* deviceId;
+  const char* scenario;
   int spo2;
   int heartRate;
   float temperature;
@@ -14,18 +15,16 @@ struct RiskResult {
   const char* reason;
 };
 
-SensorData getSimulatedSensorData() {
-  SensorData data;
+SensorData testScenarios[] = {
+  {"child_001", "NORMAL", 98, 88, 24.5, 52.0, 320},
+  {"child_001", "HUMIDITY_WARNING", 97, 90, 25.0, 76.0, 350},
+  {"child_001", "AIR_QUALITY_WARNING", 97, 92, 24.8, 55.0, 760},
+  {"child_001", "LOW_SPO2", 93, 105, 24.7, 58.0, 400},
+  {"child_001", "HIGH_RISK_COMBINED", 92, 118, 25.3, 72.0, 820}
+};
 
-  data.deviceId = "child_001";
-  data.spo2 = random(92, 100);
-  data.heartRate = random(75, 125);
-  data.temperature = random(220, 300) / 10.0;
-  data.humidity = random(40, 85);
-  data.airQualityRaw = random(250, 900);
-
-  return data;
-}
+int currentScenarioIndex = 0;
+const int scenarioCount = sizeof(testScenarios) / sizeof(testScenarios[0]);
 
 RiskResult calculateRisk(SensorData data) {
   RiskResult result;
@@ -65,12 +64,32 @@ RiskResult calculateRisk(SensorData data) {
   return result;
 }
 
+SensorData getNextScenario() {
+  SensorData data = testScenarios[currentScenarioIndex];
+
+  currentScenarioIndex++;
+
+  if (currentScenarioIndex >= scenarioCount) {
+    currentScenarioIndex = 0;
+  }
+
+  return data;
+}
+
 void printJsonReading(SensorData data, RiskResult risk) {
   Serial.println("{");
 
   Serial.print("  \"deviceId\": \"");
   Serial.print(data.deviceId);
   Serial.println("\",");
+
+  Serial.print("  \"scenario\": \"");
+  Serial.print(data.scenario);
+  Serial.println("\",");
+
+  Serial.print("  \"timestampMs\": ");
+  Serial.print(millis());
+  Serial.println(",");
 
   Serial.print("  \"spo2\": ");
   Serial.print(data.spo2);
@@ -108,15 +127,13 @@ void setup() {
   Serial.begin(115200);
   delay(1000);
 
-  randomSeed(analogRead(0));
-
   Serial.println("Pediatric Asthma Monitoring Simulation Started");
-  Serial.println("Generating JSON-style simulated sensor readings.");
+  Serial.println("Simulation 3: rotating through fixed test scenarios.");
   Serial.println();
 }
 
 void loop() {
-  SensorData currentData = getSimulatedSensorData();
+  SensorData currentData = getNextScenario();
   RiskResult risk = calculateRisk(currentData);
 
   printJsonReading(currentData, risk);
