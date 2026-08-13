@@ -1,4 +1,5 @@
 #include <Arduino.h>
+#include <string.h>
 
 struct SensorData {
   const char* deviceId;
@@ -8,6 +9,7 @@ struct SensorData {
   float temperature;
   float humidity;
   int airQualityRaw;
+  const char* expectedRiskLevel;
 };
 
 struct RiskResult {
@@ -16,11 +18,11 @@ struct RiskResult {
 };
 
 SensorData testScenarios[] = {
-  {"child_001", "NORMAL", 98, 88, 24.5, 52.0, 320},
-  {"child_001", "HUMIDITY_WARNING", 97, 90, 25.0, 76.0, 350},
-  {"child_001", "AIR_QUALITY_WARNING", 97, 92, 24.8, 55.0, 760},
-  {"child_001", "LOW_SPO2", 93, 105, 24.7, 58.0, 400},
-  {"child_001", "HIGH_RISK_COMBINED", 92, 118, 25.3, 72.0, 820}
+  {"child_001", "NORMAL", 98, 88, 24.5, 52.0, 320, "LOW"},
+  {"child_001", "HUMIDITY_WARNING", 97, 90, 25.0, 76.0, 350, "MEDIUM"},
+  {"child_001", "AIR_QUALITY_WARNING", 97, 92, 24.8, 55.0, 760, "MEDIUM"},
+  {"child_001", "LOW_SPO2", 93, 105, 24.7, 58.0, 400, "HIGH"},
+  {"child_001", "HIGH_RISK_COMBINED", 92, 118, 25.3, 72.0, 820, "HIGH"}
 };
 
 int currentScenarioIndex = 0;
@@ -76,7 +78,11 @@ SensorData getNextScenario() {
   return data;
 }
 
-void printJsonReading(SensorData data, RiskResult risk) {
+bool testPassed(SensorData data, RiskResult risk) {
+  return strcmp(data.expectedRiskLevel, risk.level) == 0;
+}
+
+void printJsonReading(SensorData data, RiskResult risk, bool passed) {
   Serial.println("{");
 
   Serial.print("  \"deviceId\": \"");
@@ -111,13 +117,20 @@ void printJsonReading(SensorData data, RiskResult risk) {
   Serial.print(data.airQualityRaw);
   Serial.println(",");
 
-  Serial.print("  \"riskLevel\": \"");
+  Serial.print("  \"expectedRiskLevel\": \"");
+  Serial.print(data.expectedRiskLevel);
+  Serial.println("\",");
+
+  Serial.print("  \"actualRiskLevel\": \"");
   Serial.print(risk.level);
   Serial.println("\",");
 
   Serial.print("  \"reason\": \"");
   Serial.print(risk.reason);
-  Serial.println("\"");
+  Serial.println("\",");
+
+  Serial.print("  \"testPassed\": ");
+  Serial.println(passed ? "true" : "false");
 
   Serial.println("}");
   Serial.println();
@@ -128,15 +141,16 @@ void setup() {
   delay(1000);
 
   Serial.println("Pediatric Asthma Monitoring Simulation Started");
-  Serial.println("Simulation 3: rotating through fixed test scenarios.");
+  Serial.println("Simulation 4: fixed scenarios with automatic validation.");
   Serial.println();
 }
 
 void loop() {
   SensorData currentData = getNextScenario();
   RiskResult risk = calculateRisk(currentData);
+  bool passed = testPassed(currentData, risk);
 
-  printJsonReading(currentData, risk);
+  printJsonReading(currentData, risk, passed);
 
   delay(3000);
 }
