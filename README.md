@@ -25,3 +25,31 @@ At this stage, the project uses simulated sensor values only. Real physical sens
 ## Important Note
 
 This project is not a medical diagnostic device. It is an early-warning support prototype for educational and research purposes.
+
+## How to Run the Simulation
+
+Install Python dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+Run the full simulation pipeline:
+
+```bash
+python3 simulation/run_all.py
+```
+
+This will generate:
+
+- simulated CSV readings
+- dataset analysis output
+- Firebase-style JSON data
+- plot images
+- local HTML dashboard
+
+Open the dashboard:
+
+```bash
+open dashboard/index.html
+```
